@@ -1,0 +1,93 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "924293fb0a63477cedf79e4b3ac5af35efef272c"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "preprocess/1.0.0": {
+        "dependencies": {
+          "Bytescout.PDFExtractor": "8.7.0.2981",
+          "asprise-ocr-api": "15.3.1",
+          "iTextSharp": "5.5.12"
+        },
+        "runtime": {
+          "preprocess.dll": {}
+        }
+      },
+      "asprise-ocr-api/15.3.1": {
+        "dependencies": {
+          "asprise-ocr-dll-bundle-32": "15.3.1",
+          "asprise-ocr-dll-bundle-64": "15.3.1"
+        },
+        "runtime": {
+          "lib/net40/asprise-ocr-api.dll": {}
+        }
+      },
+      "asprise-ocr-dll-bundle-32/15.3.1": {
+        "runtime": {
+          "lib/net40/asprise-ocr-dll-bundle-32.dll": {}
+        }
+      },
+      "asprise-ocr-dll-bundle-64/15.3.1": {
+        "runtime": {
+          "lib/net40/asprise-ocr-dll-bundle-64.dll": {}
+        }
+      },
+      "Bytescout.PDFExtractor/8.7.0.2981": {
+        "runtime": {
+          "lib/net40/Bytescout.PDFExtractor.OCRExtension.dll": {},
+          "lib/net40/Bytescout.PDFExtractor.dll": {}
+        }
+      },
+      "iTextSharp/5.5.12": {
+        "runtime": {
+          "lib/itextsharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "preprocess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "asprise-ocr-api/15.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iGSv3QHPoVttwlFATEhxc00gQe2RZbjdCph+iyx/HJ9m6Zbf/G4hOC8CbJFagzh1COJnufY5CcrkyMNoY7pgVw==",
+      "path": "asprise-ocr-api/15.3.1",
+      "hashPath": "asprise-ocr-api.15.3.1.nupkg.sha512"
+    },
+    "asprise-ocr-dll-bundle-32/15.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vd6doZrB4NxSQfnIyMG71nfE2Jc5odFo+Ddj5pljH5TxZ2KoN1J2fMIdVK5kCwSbkr2k16ELKP4v35dP4KEXFA==",
+      "path": "asprise-ocr-dll-bundle-32/15.3.1",
+      "hashPath": "asprise-ocr-dll-bundle-32.15.3.1.nupkg.sha512"
+    },
+    "asprise-ocr-dll-bundle-64/15.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t89ZtRYz5kjPMhNPaPKfQvdHV5+AiznWMWd1fbV3OAAVWR8AsWImq+YdZWEmaLJfnT7nCYoEfgtavXsbvd4wZg==",
+      "path": "asprise-ocr-dll-bundle-64/15.3.1",
+      "hashPath": "asprise-ocr-dll-bundle-64.15.3.1.nupkg.sha512"
+    },
+    "Bytescout.PDFExtractor/8.7.0.2981": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-90EzcYH3y/F3MLjwHHUKNakj2VBEC4QIeIkbUoVNJFD2LXZJnULjTVHWF+pumwnycDs1UJhrJBbLGcPdTEdLgA==",
+      "path": "bytescout.pdfextractor/8.7.0.2981",
+      "hashPath": "bytescout.pdfextractor.8.7.0.2981.nupkg.sha512"
+    },
+    "iTextSharp/5.5.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-11kZ6NWkChRUbMXIkBIXvlPVaf6gvE8xzrvg04AcRGWOeS4eg6LUAg7L03i1cwYlOE7sgv32uQ61qy3i3UPzkQ==",
+      "path": "itextsharp/5.5.12",
+      "hashPath": "itextsharp.5.5.12.nupkg.sha512"
+    }
+  }
+}

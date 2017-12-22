@@ -25,12 +25,12 @@ import sentences_proccess
 # 	print t 
 
 
-tokenizer = Tokenizer("vietnamese")
-# tokenizer = Tokenizer("english")
-# sentences = tokenizer.to_sentences("""I am a very nice sentence with comma: but..This is next sentence and haha. "I'm bored", said Pepek. Ou jee, duffman is here.""")
-words = "Anh_ấy xin chào mọi người... Ha ha vui quá?"
+# tokenizer = Tokenizer("vietnamese")
+tokenizer = Tokenizer("english")
+sentences = tokenizer.to_words("""he walked to the store yesterday""")
+# words = "Anh_ấy xin chào mọi người... Ha ha vui quá? Một con mèo tên shi."
 # words = tokenizer.to_words("Anh_ấy xin chào mọi người. Ha ha vui quá.")
-sentences = tokenizer.to_sentences(words)
+# sentences = tokenizer.to_sentences(words)
 # print words
 for t in sentences:
 	print t

@@ -1,0 +1,10 @@
+/home/dong/text_summarization/preprocess/bin/Debug/netcoreapp2.0/preprocess.deps.json
+/home/dong/text_summarization/preprocess/bin/Debug/netcoreapp2.0/preprocess.runtimeconfig.json
+/home/dong/text_summarization/preprocess/bin/Debug/netcoreapp2.0/preprocess.runtimeconfig.dev.json
+/home/dong/text_summarization/preprocess/bin/Debug/netcoreapp2.0/preprocess.dll
+/home/dong/text_summarization/preprocess/bin/Debug/netcoreapp2.0/preprocess.pdb
+/home/dong/text_summarization/preprocess/obj/Debug/netcoreapp2.0/preprocess.csproj.CoreCompileInputs.cache
+/home/dong/text_summarization/preprocess/obj/Debug/netcoreapp2.0/preprocess.AssemblyInfoInputs.cache
+/home/dong/text_summarization/preprocess/obj/Debug/netcoreapp2.0/preprocess.AssemblyInfo.cs
+/home/dong/text_summarization/preprocess/obj/Debug/netcoreapp2.0/preprocess.dll
+/home/dong/text_summarization/preprocess/obj/Debug/netcoreapp2.0/preprocess.pdb
